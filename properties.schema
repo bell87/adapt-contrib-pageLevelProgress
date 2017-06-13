@@ -73,11 +73,11 @@
                 "_showPageCompletion": {
                   "type": "boolean",
                   "required":true,
-                  "default": true,
+                  "default": false,
                   "title": "Show page completion",
                   "inputType": {"type": "Boolean", "options": [true, false]},
                   "validators": [],
-                  "help": "If set to 'false', Page Level Progress will not represent page completion in progress bar"
+                  "help": "If set to 'true' overall page completion will be represented as part of page progress"
                 }
               }
             }
